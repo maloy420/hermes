@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strona o Hermesie</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hermes - Cane Corso</h1>
+  </header>
+
+  <section>
+    <button id="btnIntro">Wstęp</button>
+    <button id="btnFacts">Ciekawostki</button>
+    <button id="btnGallery">Galeria</button>
+  </section>
+
+  <div id="intro" class="content">
+    <p>
+      Witaj na stronie o Hermesie. To jest wstępna informacja o tym wspaniałym psie. Hermes ma już 4 lata. Uwielbia kartonowe pudełka, nawet jeśli są od niego dużo mniejsze, to zawsze próbuje się do nich wcisnąć. Jego ulubioną zabawką jest żółta gumowa kostka oraz zawsze śpi z poduszką pod głową.
+    </p>
+  </div>
+
+  <div id="facts" class="content">
+    <p>Cane Corso to starożytna włoska rasa psa, znana ze swojej siły i wytrzymałości. Charakteryzuje się spokojnym temperamentem i lojalnością wobec swojej rodziny. Jest to rasa inteligentna i zrównoważona, co sprawia, że doskonale sprawdza się jako pies stróżujący.</p>
+    <p>Cane Corso wymaga konsekwentnego szkolenia i wychowania od młodości. Rasa ta często jest używana jako pies obronny, ze względu na swoją odwagę i determinację w obronie terytorium.</p>
+    <p>Mimo swojego imponującego wyglądu, Cane Corso jest czułym i przyjacielskim psem wobec swojej rodziny. Regularna aktywność fizyczna jest ważna dla utrzymania zdrowia i dobrej kondycji tej rasy. Cane Corso może być doskonałym towarzyszem dla aktywnych rodzin, ale wymaga zaangażowania i uwagi.</p>
+  </div>
+
+  <div id="gallery" class="content">
+  </div>
+
+  <div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <img id="modalImg" alt="Hermes">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
